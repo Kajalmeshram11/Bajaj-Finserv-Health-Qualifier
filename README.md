@@ -72,6 +72,9 @@ mvnw.cmd spring-boot:run
 # Linux/Mac
 ./mvnw spring-boot:run
 ```
+## Output Screenshot
+![Output](./OUTPUT.png)
+
 
 ## Example Output Logs
 
