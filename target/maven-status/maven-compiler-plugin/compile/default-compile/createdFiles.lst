@@ -1,0 +1,8 @@
+com\bajaj\qualifier1\config\RestTemplateConfig.class
+com\bajaj\qualifier1\model\SqlSubmissionRequest.class
+com\bajaj\qualifier1\model\WebhookResponse.class
+com\bajaj\qualifier1\Qualifier1Application.class
+com\bajaj\qualifier1\service\WebhookService.class
+com\bajaj\qualifier1\model\WebhookRequest.class
+com\bajaj\qualifier1\service\SqlService.class
+com\bajaj\qualifier1\config\SqlQuerySolver.class
