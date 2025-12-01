@@ -32,15 +32,15 @@ src/main/java/com/bajaj/qualifier1/
 
 ### Registration Details
 The application uses the following credentials (configured in `QualifierRunner.java`):
-- **Name**: Nishu Kumari
-- **Registration Number**: REG12346
-- **Email**: kumarinishu407@gmail.com
+- **Name**: Kajal Meshram
+- **Registration Number**: 22BCE7772
+- **Email**: kajalmeshram1203@gmail.com
 
 ### Question Selection Logic
 - **Last digit ODD** (1, 3, 5, 7, 9) → Question 1
 - **Last digit EVEN** (0, 2, 4, 6, 8) → Question 2
 
-For `REG12346`, the last digit is **6** (EVEN), so **Question 2** will be solved.
+For `22BCE7772`, the last digit is **2** (EVEN), so **Question 2** will be solved.
 
 ## Important Notes
 
@@ -78,10 +78,8 @@ mvnw.cmd spring-boot:run
 When the application starts, you'll see logs similar to:
 
 ```
-========================================
-=== BAJAJ FINSERV HEALTH QUALIFIER ===
-=== Application Starting ===
-========================================
+ BAJAJ FINSERV HEALTH QUALIFIER
+Application Starting 
 
 >>> STEP 1: Generating Webhook...
 2024-01-01 10:00:00 - === Starting Webhook Generation ===
@@ -110,10 +108,9 @@ When the application starts, you'll see logs similar to:
 2024-01-01 10:00:02 - Response Body: {"status":"success","message":"Query submitted successfully"}
 2024-01-01 10:00:02 - === SQL Query Submission Success ===
 
-========================================
-=== FINAL RESULT: SUCCESS ===
+**FINAL RESULT: SUCCESS**
 SQL query has been submitted successfully!
-========================================
+
 
 ✅ SUCCESS: SQL query submitted successfully!
 ```
@@ -136,9 +133,9 @@ If an error occurs, you'll see:
 - **Request Body**:
 ```json
 {
-  "name": "Nishu Kumari",
-  "regNo": "REG12346",
-  "email": "kumarinishu407@gmail.com"
+  "name": "Kajal Meshram",
+  "regNo": "22BCE7772",
+  "email": "kajalmeshram1203@gmail.com"
 }
 ```
 - **Response**:
@@ -178,8 +175,7 @@ If an error occurs, you'll see:
 
 ## Author
 
-Nishu Kumari  
-Registration: REG12346  
-Email: kumarinishu407@gmail.com
-
+Kajal Meshram
+Registration: 22BCE7772  
+Email: kajalmeshram1203@gmail.com
 
