@@ -73,7 +73,7 @@ mvnw.cmd spring-boot:run
 ./mvnw spring-boot:run
 ```
 ## Output Screenshot
-![Output](./OUTPUT.png)
+![Output](./OUTPUT.jpeg)
 
 
 ## Example Output Logs
